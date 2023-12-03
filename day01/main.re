@@ -3,9 +3,7 @@
 let input = File::read_to_string("input.txt");
 let input = input.unwrap().trim().split("\n");
 
-
-//print(f"part1: {part1(input)}");
-
+print(f"part1: {part1(input)}");
 print(f"part2: {part2(input)}");
 
 fn part1(input: List<string>) -> int {
